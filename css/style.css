@@ -1,38 +1,55 @@
 /* common css start Here */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ol,ul{
+
+ol,
+ul {
     list-style-type: none;
+    margin-bottom: 0 !important;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6,p{
-  line-height: 0.8;
-  margin-bottom: 0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+    margin-bottom: 0;
 }
-img{
+
+img {
     vertical-align: middle;
 }
-html,body{
+
+html,
+body {
     overflow-x: hidden;
 }
+
 /* common css End Here */
 /* Navbar part start Here  */
-.nav-item{
+.nav-item {
     margin-right: 33px;
 }
-.nav-item .nav-link{
-    font-family:'Poppins', sans-serif;
+
+.nav-item .nav-link {
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #fff;
     font-weight: 500;
 }
-.login-btn{
-    font-family:'Poppins', sans-serif;
+
+.login-btn {
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #fff;
     padding: 8px 24px;
@@ -40,21 +57,31 @@ html,body{
     border-radius: 5px;
     margin-left: 65px;
 }
-.common-header h4{
-    font-family:'Poppins', sans-serif;
+
+.common-header span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #E77C40;
+}
+
+.common-header h4 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 48px;
     color: #000;
     margin-bottom: 24px;
 }
-.common-header p{
-    font-family:'Poppins', sans-serif;
+
+.common-header p {
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 14px;
     color: #E76F51;
     position: relative;
 }
-.common-header p:after{
+
+.common-header p:after {
     content: '';
     position: absolute;
     bottom: -3px;
@@ -63,29 +90,33 @@ html,body{
     height: 1px;
     background-color: #E76F51;
 }
+
 /* Navbar part End Here  */
 /* Banner part start here */
-#banner{
+#banner {
     background-color: #264653;
 }
-.banner-contain p{
-    font-family:'Poppins', sans-serif;
+
+.banner-contain p {
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #fff;
     font-weight: 300;
     line-height: 22px;
     margin-bottom: 21px;
 }
-.banner-contain h1{
-    font-family:'Poppins', sans-serif;
+
+.banner-contain h1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     color: #fff;
     font-weight: 600;
     margin-top: 21px;
     margin-bottom: 18px;
 }
-.banner-contain a{
-    font-family:'Poppins', sans-serif;
+
+.banner-contain a {
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     color: #fff;
     font-weight: 300;
@@ -94,4 +125,107 @@ html,body{
     border-radius: 5px;
 
 }
+
 /* Banner part End here */
+/* clients part start Here */
+#clients {
+    margin: 150px 0;
+}
+
+.card-body h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #18191F;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-body p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+    padding: 0 25px;
+}
+
+.card-body a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 1px solid #E76F51;
+    background-color: #fff;
+    color: #E76F51;
+    transition: all linear .3s;
+}
+
+.card-body a:hover {
+    background-color: #E76F51;
+    color: #fff;
+}
+
+.inner-p {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    color: #23A6F0 !important;
+    font-weight: 600 !important;
+}
+
+.clients i {
+    font-size: 18px;
+    color: #E77C40;
+}
+
+.clients p {
+    margin-bottom: 0 !important;
+}
+
+/* clients part End Here */
+/* footer part start Here */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #000;
+    margin-top: 140px;
+}
+
+.left-footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.left-footer ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.left-footer ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.left-footer ul li a:last-child {
+    margin-right: 0px;
+}
+
+.right-footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* footer part End Here */
