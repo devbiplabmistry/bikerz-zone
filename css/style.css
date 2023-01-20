@@ -1,0 +1,74 @@
+/* common css start Here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+img{
+    vertical-align: middle;
+}
+html,body{
+    overflow-x: hidden;
+}
+/* common css End Here */
+/* Navbar part start Here  */
+.nav-item{
+    margin-right: 33px;
+}
+.nav-item .nav-link{
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.login-btn{
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 24px;
+    background-color: #E76F51;
+    border-radius: 5px;
+    margin-left: 65px;
+}
+/* Navbar part End Here  */
+/* Banner part start here */
+#banner{
+    background-color: #264653;
+}
+.banner-contain p{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+.banner-contain h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 21px;
+    margin-bottom: 18px;
+}
+.banner-contain a{
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    padding: 8px 45px;
+    background-color: #E76F51;
+    border-radius: 5px;
+
+}
+/* Banner part End here */
