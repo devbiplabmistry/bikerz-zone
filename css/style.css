@@ -163,7 +163,10 @@ body {
     color: #E76F51;
     transition: all linear .3s;
 }
-
+#news .card-body p {
+    font-size: 15px !important; 
+    padding: 0 !important;
+}
 .card-body a:hover {
     background-color: #E76F51;
     color: #fff;
