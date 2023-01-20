@@ -40,6 +40,29 @@ html,body{
     border-radius: 5px;
     margin-left: 65px;
 }
+.common-header h4{
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 24px;
+}
+.common-header p{
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+    position: relative;
+}
+.common-header p:after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 520px;
+    width: 58px;
+    height: 1px;
+    background-color: #E76F51;
+}
 /* Navbar part End Here  */
 /* Banner part start here */
 #banner{
